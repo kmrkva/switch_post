@@ -151,7 +151,7 @@ export default function CompareIPhones() {
         />
       </div>
       <div className="px-4 py-8 space-y-8">
-        <div className="text-center h-0 invisible">
+        <div className="text-center">
           <div className="flex justify-center items-center">
             <Check className="w-6 h-6 mr-2 text-green-500" />
             <span className="text-base">Thank you for your order.</span>
