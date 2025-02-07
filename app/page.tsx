@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
-import { Battery, Camera, Cpu, ZoomIn, Wifi, Usb, Check } from "lucide-react"
+import { Battery, Camera, Cpu, ZoomIn, Wifi, Usb } from "lucide-react"
 import { type LucideIcon } from 'lucide-react'
 
 export default function CompareIPhones() {
@@ -139,7 +139,7 @@ export default function CompareIPhones() {
   }, [])
 
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-5xl mx-auto px-4">
       <div className="relative w-full" onClick={handleTopImageClick}>
         <Image 
           src="/topbrowser.png" 
@@ -151,13 +151,13 @@ export default function CompareIPhones() {
         />
       </div>
       <div className="px-4 py-8 space-y-8">
-        <div className="text-center">
+        <div className="text-center h-0 invisible">
           <div className="flex justify-center items-center">
             <Check className="w-6 h-6 mr-2 text-green-500" />
             <span className="text-base">Thank you for your order.</span>
             <span className="text-base text-blue-500 ml-2">View order confirmation</span>
           </div>
-          <p className="text-2x1 text-blue-500 font-semibold mt-6">It is not too late to upgrade!</p>
+          <p className="text-base font-semibold mt-6">It's not too late to upgrade!</p>
         </div>
 
         <div className="text-center">
