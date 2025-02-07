@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
-import { Battery, Camera, Cpu, ZoomIn, Wifi, Usb } from "lucide-react"
+import { Battery, Camera, Cpu, ZoomIn, Wifi, Usb, Check } from "lucide-react"
 import { type LucideIcon } from 'lucide-react'
 
 export default function CompareIPhones() {
@@ -151,6 +151,15 @@ export default function CompareIPhones() {
         />
       </div>
       <div className="px-4 py-8 space-y-8">
+        <div className="text-center">
+          <div className="flex justify-center items-center">
+            <Check className="w-6 h-6 mr-2 text-green-500" />
+            <span className="text-base">Thank you for your order.</span>
+          </div>
+          <p className="text-xs text-blue-500 mt-1">View order confirmation</p>
+          <p className="text-base font-semibold mt-1">It's not too late to upgrade!</p>
+        </div>
+
         <div className="text-center">
           <h1 className="text-2xl font-semibold">Would you like to switch to the iPhone 16 Pro or 16 Pro Max? </h1>
 		  <p className="text-base mt-2">On this screen, you can choose any option (any of the 3 iPhones) or you can click learn more or other buttons.</p>
