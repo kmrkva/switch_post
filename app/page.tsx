@@ -155,9 +155,9 @@ export default function CompareIPhones() {
           <div className="flex justify-center items-center">
             <Check className="w-6 h-6 mr-2 text-green-500" />
             <span className="text-base">Thank you for your order.</span>
+            <span className="text-base text-blue-500 ml-2">View order confirmation</span>
           </div>
-          <p className="text-xs text-blue-500 mt-1">View order confirmation</p>
-          <p className="text-base font-semibold mt-1">It is not too late to upgrade!</p>
+          <p className="text-base font-semibold mt-6">It's not too late to upgrade!</p>
         </div>
 
         <div className="text-center">
