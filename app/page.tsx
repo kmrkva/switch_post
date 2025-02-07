@@ -157,7 +157,7 @@ export default function CompareIPhones() {
             <span className="text-base">Thank you for your order.</span>
           </div>
           <p className="text-xs text-blue-500 mt-1">View order confirmation</p>
-          <p className="text-base font-semibold mt-1">It's not too late to upgrade!</p>
+          <p className="text-base font-semibold mt-1">It is not too late to upgrade!</p>
         </div>
 
         <div className="text-center">
