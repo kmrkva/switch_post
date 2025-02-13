@@ -186,7 +186,7 @@ export default function CompareIPhones() {
         </div>
 
         <div className="text-center">
-          <h1 className="text-2xl font-semibold">Would you like to switch to the iPhone 16 Pro or 16 Pro Max? </h1>
+          <h1 className="text-2xl font-semibold mt-2">Would you like to switch to the iPhone 16 Pro? </h1>
           <p className="text-base mt-2">On this screen, you can choose either option or you can click Learn more to get additional information.</p>
         </div>
 
